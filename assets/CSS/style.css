@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body {
     background-color: #0069B1;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
     color: white;
 }
 

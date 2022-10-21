@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 html,
 body {
     font-family: 'Fira Sans', sans-serif;
     background-color: #E5B400;
-    
+
+}
+h1{
+    position: absolute;
+    top: 0;
+    left: 35%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    color: white;
     
 }
 
@@ -13,7 +22,7 @@ form {
     position: relative;
     left: 20%;
     background-color: #ffdea4;
-    width: 35%;
+    width: 36%;
     border-radius: 5% ;
     padding: 10px;
     box-shadow: 5px 5px 30px black;
