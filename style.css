@@ -3,10 +3,11 @@
 html,
 body {
     font-family: 'Fira Sans', sans-serif;
-    background-color: #1ebaef;
+    background-color: #0069B1;
+    
 }
 
-
+/********************************************FORMULAIRE***********************************************************/
 form {
     position: relative;
     left: 20%;
@@ -18,12 +19,6 @@ form {
     box-shadow: 5px 5px 30px black;
 }
 
-h1 {
-    position: absolute;
-    top: 0;
-    left: 30%;
-    color: white;
-}
 
 fieldset {
     margin: 2% auto;
@@ -42,6 +37,7 @@ div {
     margin: 1%;
 }
 
+/********************************************BOUTON**********************************************************/
 
 input[type=submit] {
     margin-left: 80%;
@@ -62,7 +58,7 @@ input[type=submit]:hover {
     transition: 0.3s;
 }
 
-
+/*******************************IMAGE***************************************************************************/
 
 .milkshake {
     position: absolute;
@@ -71,9 +67,3 @@ input[type=submit]:hover {
     rotate: -20deg;
 }
 
-.cookie {
-    position: absolute;
-    top: -15%;
-    left: 32%;
-    z-index: 2;
-}

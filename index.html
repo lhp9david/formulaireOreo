@@ -1,34 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png" />
-
     <title>formulaire Oreo</title>
   </head>
+
   <body>
     <header>
       <div class="titlePicture">
         <img class="titre" src="img/logo-2.png" alt="" />
       </div>
-      <h1></h1>
     </header>
+
     <main>
       <form action="">
-        <fieldset class="one">
+        <fieldset>
           <legend>Votre identité</legend>
-
-          <div>
-            <label for="select-genre">Votre genre:</label>
-            <select name="genre" id="select-genre" required>
-              <option value="homme">Homme</option>
-              <option value="femme">femme</option>
-            </select>
-          </div>
-
           <div>
             <label for="name">Nom:</label>
             <input
@@ -39,7 +30,6 @@
               required
             />
           </div>
-
           <div>
             <label for="firstname">Prénom:</label>
             <input
@@ -49,7 +39,6 @@
               placeholder="Jean"
             />
           </div>
-
           <div>
             <label for="mail">Email:</label>
             <input
@@ -62,7 +51,7 @@
           </div>
         </fieldset>
 
-        <fieldset class="two">
+        <fieldset>
           <legend>Combien de paquets d'Oréo achetez vous par mois ?</legend>
           <div>
             <input type="radio" id="unPaquet" name="choix" />
@@ -77,6 +66,7 @@
             <label for="plus">Je ne les compte même plus</label>
           </div>
         </fieldset>
+
         <fieldset>
           <legend>Comment avez vous connu la marque?</legend>
           <div class="question">
@@ -90,6 +80,7 @@
             </select>
           </div>
         </fieldset>
+
         <fieldset>
           <legend>Conditions générales</legend>
           <div>
@@ -102,9 +93,10 @@
           </div>
         </fieldset>
 
-        <div class="button">
+        <div>
           <input type="submit" name="submit" value="j'accepte" />
         </div>
+        
       </form>
       <div class="milkshake">
         <img src="img/laitOreo.png" alt="" />
