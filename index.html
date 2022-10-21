@@ -1,15 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>formulaire Oreo</title>
-</head>
-<body>
-    <fieldset>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png" />
 
-    </fieldset>
-</body>
+    <title>formulaire Oreo</title>
+  </head>
+  <body>
+    <header>
+      <div class="titlePicture">
+        <img class="titre" src="img/logo-2.png" alt="" />
+      </div>
+      <h1></h1>
+    </header>
+    <main>
+      <form action="">
+        <fieldset class="one">
+          <legend>Votre identité</legend>
+
+          <div>
+            <label for="select-genre">Votre genre:</label>
+            <select name="genre" id="select-genre" required>
+              <option value="homme">Homme</option>
+              <option value="femme">femme</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="name">Nom:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Dupont"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="firstname">Prénom:</label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Jean"
+            />
+          </div>
+
+          <div>
+            <label for="mail">Email:</label>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="monadresse@gmail.com"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <fieldset class="two">
+          <legend>Combien de paquets d'Oréo achetez vous par mois ?</legend>
+          <div>
+            <input type="radio" id="unPaquet" name="choix" />
+            <label for="unPaquet">1 paquet</label>
+          </div>
+          <div>
+            <input type="radio" id="deuxPaquet" name="choix" />
+            <label for="deuxPaquet">2 paquets</label>
+          </div>
+          <div>
+            <input type="radio" id="plus" name="choix" />
+            <label for="plus">Je ne les compte même plus</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Comment avez vous connu la marque?</legend>
+          <div class="question">
+            <label for="marque">Choisissez</label>
+            <select name="marque" id="marque">
+              <option value="tv">TV</option>
+              <option value="radio">Radio</option>
+              <option value="Internet">Internet</option>
+              <option value="Magasin">Magasin</option>
+              <option value="Autre">Autre</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Conditions générales</legend>
+          <div>
+            <label for="donnee">j'autorise OREO à exploiter mes données</label>
+            <input type="checkbox" id="donnee" name="donnee" required />
+          </div>
+          <div>
+            <label for="CGU">J'accepte les CGU</label>
+            <input type="checkbox" id="CGU" name="CGU" required />
+          </div>
+        </fieldset>
+
+        <div class="button">
+          <input type="submit" name="submit" value="j'accepte" />
+        </div>
+      </form>
+      <div class="milkshake">
+        <img src="img/laitOreo.png" alt="" />
+      </div>
+    </main>
+  </body>
 </html>
