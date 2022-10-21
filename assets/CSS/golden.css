@@ -75,7 +75,7 @@ input[type=submit]:hover {
 .cookie{
     position: absolute;
     left: 65%;
-    top: -20px;
+    top: -5%;
     filter:drop-shadow(16px 16px 10px black)
 }
 
