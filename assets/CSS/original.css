@@ -11,9 +11,8 @@ body {
 form {
     position: relative;
     left: 20%;
-    top: -35px;
     background-color: #1ebaef;
-    width: 30%;
+    width: 35%;
     border-radius: 5% ;
     padding: 10px;
     box-shadow: 5px 5px 30px black;
@@ -65,5 +64,8 @@ input[type=submit]:hover {
     left: 70%;
     top: 22%;
     rotate: -20deg;
+}
+.cookie {
+    display: none;
 }
 
